@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #181818;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 0;
+}
+
+.post-card{
+    width: 400px;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 3%;
+    margin: 15px;
+}
+
+.post-card .background-image{
+    width: 400px;
+}
+
+h1{
+    margin: 5px;
+}
+
+p{
+    margin: 5px;
+}
+
+.post-card .imagem-emquest {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+button{
+    margin: 2px;
+ }
+
+
+ .page-title {
+    color: blue;
+    padding-left: 64px;
+    margin-bottom: 6px;
+    font-size: xx-large;
+}
+
