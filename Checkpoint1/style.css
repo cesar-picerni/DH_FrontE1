@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.body{
+    background-color: #012407;
+}
+
+.media-picture{
+    height: 532px;
+    background-image: url("https://s1.1zoom.me/big0/615/340888-svetik.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    margin-top: -8px;
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    width: auto;
+    justify-content: right;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.cards {
+    width: 335px;
+    height: 534px;
+    border-radius: 31px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cards-image{
+    height: 534px;
+    background-size: cover;
+    background-position: center;
+}
+
+button:hover{
+    background-color:black;
+    color: white;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.texto-tit-card{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.botoes-home{
+    box-sizing: border-box;
+    border-radius: 36px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(129, 229, 162);
+    height: 82px;
+    width: 197px;
+    font-size: 24px;
+    border: solid 2px rgb(109, 139, 139);
+    cursor: pointer;
+}
+
+.main-site-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    min-height: 177px;
+    background-color: #012407;
+}
+
+.inter-site-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 90px;
+    padding-top: 70px;
+    padding-bottom: 28px;
+    background-color: #012407;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 24px;
+    margin: 20px;
+}
+
+
+h1{
+    margin: 40px;
+    margin-left: 82px;
+    font-size: auto;
+}
+
+h2{
+    color: blueviolet;
+    z-index: 3;
+}
+
+header{
+    justify-content: space-between;
+    background-color: greenyellow;
+    font-family: 'Roboto', sans-serif;
+    padding: 30 px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+
+.video {
+    width: 1077px;
+    height: 534px;
+    background-color: white;
+    border-radius: 31px;
+    overflow: hidden;
+    position: relative;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+    background-color: black;
+    padding: 12px;
+    position: relative;
+    height: 414px;
+    width: auto;
+    justify-content: center;
+    }
+
+
+.icons{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    fill-opacity: white;
+    cursor: pointer;
+}
+
+.icons2{
+    position: relative;
+    height: 90px;
+    width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    fill-opacity: white;
+    cursor: pointer;
+}
